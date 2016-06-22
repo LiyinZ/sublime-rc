@@ -1,11 +1,18 @@
 [
-  { // overwrite Emmet
-    "keys": ["ctrl+e"],
-    "command": "move_to",
-    "args": {"to": "eol", "extend": false}
+  /* default VIM Emulation and modification */
+  { // U for redo, matching u for undo
+    "keys": ["U"],
+    "command": "redo",
+    "context": [{"key": "setting.command_mode"}]
   },
-
-  /* VIM Emulation and modification */
+  { // swap ctrl+r and U
+    "keys": ["ctrl+r"],
+    "command": "visual_upper_case",
+    "context": [
+      {"key": "setting.command_mode"},
+      {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": false}
+    ]
+  },
   { // replace ^
     "keys": ["ctrl+h"],
     "command": "set_motion",
@@ -70,5 +77,23 @@
       }
     },
     "context": [{"key": "setting.command_mode"}]
-  }
+  },
+
+  /* Plugins Key Bindings */
+  { // overwrite Emmet
+    "keys": ["ctrl+e"],
+    "command": "move_to",
+    "args": {"to": "eol", "extend": false}
+  },
+  // Ace Jump
+  {
+    "keys": [" ", " "],
+    "command": "ace_jump_char",
+    "context": [{"key": "setting.command_mode"}]
+  },
+  {
+    "keys": [" ", "w"],
+    "command": "ace_jump_word",
+    "context": [{"key": "setting.command_mode"}]
+  },
 ]

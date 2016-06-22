@@ -4,6 +4,7 @@
 	"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
 	"ignored_packages":
 	[
+		"Emmet"
 	],
 	"indent_guide_options":
 	[
