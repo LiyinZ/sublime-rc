@@ -104,6 +104,15 @@
     },
     "context": [{"key": "setting.command_mode"}]
   },
+  // sidebar hjkl keyboard navigation
+  { "keys": ["x"], "command": "move", "args": {"by": "characters", "forward": false}, "context":
+    [ {"key": "control", "operand": "sidebar_tree"} ] },
+{ "keys": ["j"], "command": "move", "args": {"by": "lines", "forward": true}, "context":
+    [ {"key": "control", "operand": "sidebar_tree"} ] },
+{ "keys": ["k"], "command": "move", "args": {"by": "lines", "forward": false}, "context":
+    [ {"key": "control", "operand": "sidebar_tree"} ] },
+{ "keys": ["o"], "command": "move", "args": {"by": "characters", "forward": true}, "context":
+    [ {"key": "control", "operand": "sidebar_tree"} ] },
 
 
   /* Plugins Key Bindings */
