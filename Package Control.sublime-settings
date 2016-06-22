@@ -1,0 +1,19 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AceJump",
+		"AdvancedNewFile",
+		"Colorsublime",
+		"Emmet",
+		"Evernote",
+		"Material Theme",
+		"Oceanic Color Scheme",
+		"Package Control",
+		"VBDotNet",
+		"VimL"
+	]
+}

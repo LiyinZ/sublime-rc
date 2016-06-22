@@ -1,0 +1,7 @@
+[
+  {
+    "keys": ["ctrl+e"],
+    "command": "move_to",
+    "args": {"to": "eol", "extend": false}
+  }
+]
