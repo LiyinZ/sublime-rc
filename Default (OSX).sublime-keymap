@@ -1,7 +1,74 @@
 [
-  {
+  { // overwrite Emmet
     "keys": ["ctrl+e"],
     "command": "move_to",
     "args": {"to": "eol", "extend": false}
+  },
+
+  /* VIM Emulation and modification */
+  { // replace ^
+    "keys": ["ctrl+h"],
+    "command": "set_motion",
+    "args": {
+      "motion": "vi_move_to_first_non_white_space_character",
+      "motion_args": {"extend": true},
+      "clip_to_line": true
+    },
+    "context": [{"key": "setting.command_mode"}]
+  },
+  { // replace $
+    "keys": ["ctrl+l"],
+    "command": "set_motion",
+    "args": {
+      "motion": "vi_move_to_hard_eol",
+      "motion_args": {"repeat": 1, "extend": true},
+      "inclusive": true,
+      "clip_to_line": true
+    },
+    "context": [{"key": "setting.command_mode"}]
+  },
+  { // Jump forward 5 lines
+    "keys": ["g", "j"],
+    "command": "bind_repeat_motion",
+    "args": {
+      "motion": "move",
+      "motion_args": {
+        "by": "lines", "forward": true, "extend": true, "linewise": true, "amount": 5
+      }
+    },
+    "context": [{"key": "setting.command_mode"}]
+  },
+  { // Go backward 5 lines
+    "keys": ["g", "k"],
+    "command": "bind_repeat_motion",
+    "args": {
+      "motion": "move",
+      "motion_args": {
+        "by": "lines", "forward": false, "extend": true, "linewise": true, "amount": 5
+      }
+    },
+    "context": [{"key": "setting.command_mode"}]
+  },
+  { // Jump forward 10 lines
+  	"keys": ["J"],
+  	"command": "bind_repeat_motion",
+  	"args": {
+  		"motion": "move",
+  		"motion_args": {
+        "by": "lines", "forward": true, "extend": true, "linewise": true, "amount": 10
+      }
+  	},
+  	"context": [{"key": "setting.command_mode"}]
+  },
+  { // Go backward 10 lines
+    "keys": ["K"],
+    "command": "bind_repeat_motion",
+    "args": {
+      "motion": "move",
+      "motion_args": {
+        "by": "lines", "forward": false, "extend": true, "linewise": true, "amount": 10
+      }
+    },
+    "context": [{"key": "setting.command_mode"}]
   }
 ]
