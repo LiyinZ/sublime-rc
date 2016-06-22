@@ -13,6 +13,20 @@
       {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": false}
     ]
   },
+  { // backspace to go prev_view
+    "keys": ["backspace"],
+    "command": "prev_view",
+    "context": [
+      {"key": "setting.command_mode"},
+    ]
+  },
+  { // tab to go next_view
+    "keys": ["tab"],
+    "command": "next_view",
+    "context": [
+      {"key": "setting.command_mode"},
+    ]
+  },
   { // replace ^
     "keys": ["ctrl+h"],
     "command": "set_motion",
@@ -21,6 +35,18 @@
       "motion_args": {"extend": true},
       "clip_to_line": true
     },
+    "context": [{"key": "setting.command_mode"}]
+  },
+  { // go to left pane
+    "keys": [" ", "l"],
+    "command": "move_group_focus",
+    "args": {"direction": "right"},
+    "context": [{"key": "setting.command_mode"}]
+  },
+  { // go to right pane
+    "keys": [" ", "h"],
+    "command": "move_group_focus",
+    "args": {"direction": "left"},
     "context": [{"key": "setting.command_mode"}]
   },
   { // replace $
@@ -79,12 +105,15 @@
     "context": [{"key": "setting.command_mode"}]
   },
 
+
   /* Plugins Key Bindings */
+
   { // overwrite Emmet
     "keys": ["ctrl+e"],
     "command": "move_to",
     "args": {"to": "eol", "extend": false}
   },
+
   // Ace Jump
   {
     "keys": [" ", " "],
@@ -95,5 +124,85 @@
     "keys": [" ", "w"],
     "command": "ace_jump_word",
     "context": [{"key": "setting.command_mode"}]
+  },
+
+  // Origami
+  { // destroy current pane
+    "keys": [" ", "q"],
+    "command": "destroy_pane",
+    "args": {"direction": "self"},
+    "context": [{"key": "setting.command_mode"}]
+  },
+  { // vertical split with current file
+    "keys": ["ctrl+w", "v"],
+    "command": "create_pane_with_file",
+    "args": {"direction": "right"},
+    "context": [
+      {"key": "setting.vintage_ctrl_keys"},
+      {"key": "setting.command_mode"}
+    ]
+  },
+  { // horizontal split with current file
+    "keys": ["ctrl+w", "s"],
+    "command": "create_pane_with_file",
+    "args": {"direction": "down"},
+    "context": [
+      {"key": "setting.vintage_ctrl_keys"},
+      {"key": "setting.command_mode"}
+    ]
+  },
+  {  // carry file to right pane
+    "keys": ["ctrl+w", "L"],
+    "command": "carry_file_to_pane",
+    "args": {"direction": "right"},
+    "context": [
+      {"key": "setting.vintage_ctrl_keys"},
+      {"key": "setting.command_mode"}
+    ]
+  },
+  { // carry file to left pane
+    "keys": ["ctrl+w", "H"],
+    "command": "carry_file_to_pane",
+    "args": {"direction": "left"},
+    "context": [
+      {"key": "setting.vintage_ctrl_keys"},
+      {"key": "setting.command_mode"}
+    ]
+  },
+  { // pull file from left pane
+    "keys": ["ctrl+w", "p"],
+    "command": "pull_file_from_pane",
+    "args": {"direction": "left"},
+    "context": [
+      {"key": "setting.vintage_ctrl_keys"},
+      {"key": "setting.command_mode"}
+    ]
+  },
+  { // pull file from right pane
+    "keys": ["ctrl+w", "q"],
+    "command": "pull_file_from_pane",
+    "args": {"direction": "right"},
+    "context": [
+      {"key": "setting.vintage_ctrl_keys"},
+      {"key": "setting.command_mode"}
+    ]
+  },
+  { // clone file to right pane
+    "keys": ["ctrl+w", "c"],
+    "command": "clone_file_to_pane",
+    "args": {"direction": "right"},
+    "context": [
+      {"key": "setting.vintage_ctrl_keys"},
+      {"key": "setting.command_mode"}
+    ]
+  },
+  { // clone file to left pane
+    "keys": ["ctrl+w", "C"],
+    "command": "clone_file_to_pane",
+    "args": {"direction": "left"},
+    "context": [
+      {"key": "setting.vintage_ctrl_keys"},
+      {"key": "setting.command_mode"}
+    ]
   },
 ]
