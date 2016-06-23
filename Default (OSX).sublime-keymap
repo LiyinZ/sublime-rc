@@ -146,6 +146,36 @@
     "context": [{"key": "setting.command_mode"}]
   },
 
+  // Advanced New File
+  { // delete current file
+    "keys": [":", "m", "d"],
+    "command": "advanced_new_file_delete",
+    "args": {"current": true},
+    "context": [{"key": "setting.command_mode"}]
+  },
+  { // rename file
+    "keys": [":", "m", "m"],
+    "command": "advanced_new_file_move",
+    "context": [{"key": "setting.command_mode"}]
+  },
+  { // copy file
+    "keys": [":", "m", "c"],
+    "command": "advanced_new_file_copy",
+    "context": [{"key": "setting.command_mode"}]
+  },
+
+  // Git Gutter
+  { 
+    "keys": ["g", "j"], 
+    "command": "git_gutter_next_change",
+    "context": [{"key": "setting.command_mode"}]
+  },
+  { 
+    "keys": ["g", "k"], 
+    "command": "git_gutter_prev_change",
+    "context": [{"key": "setting.command_mode"}]
+  },
+
   // Origami
   { // destroy current pane
     "keys": ["ctrl+w", "q"],

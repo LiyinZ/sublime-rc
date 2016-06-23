@@ -1,0 +1,1112 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"f",
+				"for	for (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"mot",
+				"motion_args"
+			],
+			[
+				"record",
+				"record_details"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "Default (OSX).sublime-keymap",
+			"settings":
+			{
+				"buffer_size": 6623,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Preferences.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 501,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 294.0,
+		"last_filter": "project",
+		"selected_items":
+		[
+			[
+				"project",
+				"Project: Save As"
+			],
+			[
+				"sett",
+				"Preferences: Settings - Default"
+			],
+			[
+				"key",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"gs",
+				"Git: Status"
+			],
+			[
+				"removpa",
+				"Package Control: Remove Package"
+			],
+			[
+				"finke",
+				"FindKeyConflicts: All Conflicts"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"delf",
+				"ANF: Delete File"
+			],
+			[
+				"",
+				"ANF: Delete Current File"
+			],
+			[
+				"anfdc",
+				"ANF: Delete Current File"
+			],
+			[
+				"anfco",
+				"ANF: Copy Current File"
+			],
+			[
+				"anfde",
+				"ANF: Delete Current File"
+			],
+			[
+				"gitcom",
+				"Git: Commit"
+			],
+			[
+				"gc",
+				"Git: Commit"
+			],
+			[
+				"ga",
+				"Git: Add All"
+			],
+			[
+				"semar",
+				"Set Syntax: Markdown"
+			],
+			[
+				"keybus",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"ked",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"gd",
+				"Git: Diff All Files"
+			],
+			[
+				"gdcu",
+				"Git: Diff Current File"
+			],
+			[
+				"keybde",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"keyb",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"togs",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"setting",
+				"Preferences: Settings - Default"
+			],
+			[
+				"minm",
+				"View: Toggle Minimap"
+			],
+			[
+				"gaa",
+				"Git: Add All"
+			],
+			[
+				"git",
+				"Git: Graph All"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"keybin",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"repl",
+				"SublimeREPL: Shell"
+			],
+			[
+				"rpnode",
+				"SublimeREPL: Node"
+			],
+			[
+				"rpphp",
+				"SublimeREPL: PHP"
+			],
+			[
+				"rpruby",
+				"SublimeREPL: Ruby"
+			],
+			[
+				"rppy",
+				"SublimeREPL: Python - IPython"
+			],
+			[
+				"rppyt",
+				"SublimeREPL: Python"
+			],
+			[
+				"reppyt",
+				"SublimeREPL: Python"
+			],
+			[
+				"enab",
+				"Package Control: Enable Package"
+			],
+			[
+				"gist",
+				"Git: Status"
+			],
+			[
+				"gidi",
+				"Git: Diff Current File"
+			],
+			[
+				"gitstat",
+				"Git: Status"
+			],
+			[
+				"gitlo",
+				"Git: Log All"
+			],
+			[
+				"gitdif",
+				"Git: Diff Current File"
+			],
+			[
+				"disa",
+				"Package Control: Disable Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"gitdifcu",
+				"Git: Diff Current File"
+			],
+			[
+				"gitsta",
+				"Git: Status"
+			],
+			[
+				"gidif",
+				"Git: Diff Current File"
+			],
+			[
+				"gitl",
+				"Git: Log All"
+			],
+			[
+				"gitlog",
+				"Git: Log All"
+			],
+			[
+				"gistat",
+				"Git: Status"
+			],
+			[
+				"gitst",
+				"Git: Status"
+			],
+			[
+				"listpac",
+				"Package Control: List Packages"
+			],
+			[
+				"instla",
+				"Package Control: Install Package"
+			],
+			[
+				"listpa",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"tota",
+				"View: Toggle Tabs"
+			],
+			[
+				"enabl",
+				"Package Control: Enable Package"
+			],
+			[
+				"min",
+				"View: Toggle Minimap"
+			],
+			[
+				"mini",
+				"View: Toggle Minimap"
+			],
+			[
+				"dele",
+				"ANF: Delete Current File"
+			],
+			[
+				"keybi",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"tabs",
+				"View: Toggle Tabs"
+			],
+			[
+				"minima",
+				"View: Toggle Minimap"
+			],
+			[
+				"to",
+				"View: Toggle Tabs"
+			],
+			[
+				"savelayo",
+				"Origami: Save Current Layout"
+			],
+			[
+				"destpane",
+				"Origami: Destroy Pane on the Left"
+			],
+			[
+				"ori",
+				"Origami: Create Pane on the Right"
+			],
+			[
+				"oric",
+				"Origami: Create Pane Below"
+			],
+			[
+				"prekeb",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				":togta",
+				"View: Toggle Tabs"
+			],
+			[
+				"tomi",
+				"View: Toggle Minimap"
+			],
+			[
+				"togmin",
+				"View: Toggle Minimap"
+			],
+			[
+				"diab",
+				"Package Control: Disable Package"
+			],
+			[
+				"diable",
+				"Package Control: Disable Package"
+			],
+			[
+				"paremo",
+				"Package Control: Remove Package"
+			],
+			[
+				"prekey",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"preline",
+				"Preferences: LineJumper Key Bindings – User"
+			],
+			[
+				"linejum",
+				"Preferences: LineJumper Settings – Default"
+			],
+			[
+				"preflinj",
+				"Preferences: LineJumper Key Bindings – Default"
+			],
+			[
+				"keybind",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"sortli",
+				"Sort Lines"
+			],
+			[
+				"packremo",
+				"Package Control: Remove Package"
+			],
+			[
+				"packag",
+				"Preferences: Browse Packages"
+			],
+			[
+				"packalist",
+				"Package Control: List Packages"
+			],
+			[
+				"update",
+				"Evernote: Update Evernote Note"
+			],
+			[
+				"setnnewn",
+				"Evernote: Send to Evernote as new note"
+			],
+			[
+				"empty",
+				"Evernote: New empty note"
+			],
+			[
+				"instalpa",
+				"Package Control: Install Package"
+			],
+			[
+				"prefkey",
+				"Preferences: Key Bindings - Default"
+			],
+			[
+				"preferen",
+				"Preferences: Settings - Default"
+			],
+			[
+				"prefe",
+				"Preferences: Key Bindings - User"
+			],
+			[
+				"prefere",
+				"Preferences: Browse Packages"
+			],
+			[
+				"sethtm",
+				"Set Syntax: HTML"
+			],
+			[
+				"wrap",
+				"Emmet: Wrap With Abbreviation"
+			],
+			[
+				"togtab",
+				"View: Toggle Tabs"
+			],
+			[
+				"minimap",
+				"View: Toggle Minimap"
+			],
+			[
+				"setmark",
+				"Set Syntax: Markdown"
+			],
+			[
+				"open",
+				"Evernote: Open Evernote Note"
+			],
+			[
+				"totab",
+				"View: Toggle Tabs"
+			],
+			[
+				"upda",
+				"Evernote: Update Evernote Note"
+			],
+			[
+				"sent",
+				"Evernote: Send to Evernote as new note"
+			],
+			[
+				"newe",
+				"Evernote: New empty note"
+			],
+			[
+				"send",
+				"Evernote: Send to Evernote as new note"
+			],
+			[
+				"new",
+				"Evernote: New empty note"
+			],
+			[
+				"up",
+				"Evernote: Update Evernote Note"
+			],
+			[
+				"sen",
+				"Evernote: Send to Evernote as new note"
+			],
+			[
+				"newem",
+				"Evernote: New empty note"
+			],
+			[
+				"ope",
+				"Evernote: Open Evernote Note"
+			],
+			[
+				"rever",
+				"Evernote: Revert to version on Evernote"
+			],
+			[
+				"evernew",
+				"Evernote: New empty note"
+			],
+			[
+				"evernot",
+				"Evernote: Send to Evernote as new note"
+			],
+			[
+				"newemp",
+				"Evernote: New empty note"
+			],
+			[
+				"revert",
+				"Evernote: Revert to version on Evernote"
+			],
+			[
+				"everinser",
+				"Evernote: Insert Attachment Here"
+			],
+			[
+				"evernote",
+				"Evernote: Show Attachments…"
+			],
+			[
+				"eveopen",
+				"Evernote: Open Evernote Note"
+			],
+			[
+				"everclearno",
+				"Evernote: Clear Notebook Cache"
+			],
+			[
+				"everopen",
+				"Evernote: Open Evernote Note"
+			],
+			[
+				"eversen",
+				"Evernote: Send to Evernote as new note"
+			],
+			[
+				"everempt",
+				"Evernote: New empty note"
+			],
+			[
+				"everope",
+				"Evernote: Open Evernote Note"
+			],
+			[
+				"ever",
+				"Evernote: New empty note"
+			],
+			[
+				"evercrea",
+				"Evernote: Create New Notebook"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"view.run_command('ace_jump_word')",
+			"view.run_command('bind_repeat_motion')",
+			"1+1",
+			"sublime.version()",
+			"23+3",
+			"print('hll')",
+			"print 'hello'",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/slevin/Library/Application Support/Sublime Text 3/Packages/User"
+	],
+	"file_history":
+	[
+		"/Users/slevin/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/slevin/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/Users/slevin/Library/Application Support/Sublime Text 3/Packages/AdvancedNewFile/Default (OSX).sublime-keymap",
+		"/Users/slevin/Library/Application Support/Sublime Text 3/Packages/AdvancedNewFile/AdvancedNewFile.sublime-settings",
+		"/Users/slevin/Library/Application Support/Sublime Text 3/Packages/User/AdvancedNewFile.sublime-settings",
+		"/Users/slevin/Library/Application Support/Sublime Text 3/Packages/User/backup.sublime-keymap",
+		"/Users/slevin/Library/Application Support/Sublime Text 3/Packages/User/cute.md",
+		"/Users/slevin/Library/Application Support/Sublime Text 3/Packages/User/test.md",
+		"/Users/slevin/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/slevin/Library/Application Support/Sublime Text 3/Packages/User/file1.md, file2.md",
+		"/Users/slevin/Library/Application Support/Sublime Text 3/Packages/User/new.md",
+		"/Users/slevin/Library/Application Support/Sublime Text 3/Packages/User/README.md",
+		"/Users/slevin/Library/Application Support/Sublime Text 3/Packages/User/readthis.md",
+		"/Users/slevin/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/slevin/.jshintrc",
+		"/Users/slevin/zhang/x-factor/neat-client/node_modules/weinre/web/client/CookieParser.js",
+		"/Users/slevin/zhang/sandbox/node.js",
+		"/Users/slevin/Library/Application Support/Sublime Text 3/Packages/User/Git.sublime-settings",
+		"/Users/slevin/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/Users/slevin/Library/Application Support/Sublime Text 3/Packages/User/bh_core.sublime-settings",
+		"/Users/slevin/zhang/sandbox/test.js",
+		"/Users/slevin/zhang/sandbox/try-slim/src/public/index.php",
+		"/Users/slevin/zhang/sandbox/try-slim/src/vendor/psr/http-message/src/ResponseInterface.php",
+		"/Users/slevin/zhang/sandbox/try-slim/src/vendor/psr/http-message/src/ServerRequestInterface.php",
+		"/Users/slevin/zhang/x-factor/neat-client/src/app/users/users.html",
+		"/Users/slevin/Library/Application Support/Sublime Text 3/Packages/BracketHighlighter/bh_core.sublime-settings",
+		"/Users/slevin/Library/Application Support/Sublime Text 3/Packages/BracketHighlighter/Example.sublime-keymap",
+		"/Users/slevin/Library/Application Support/Sublime Text 3/Packages/pygments/README.md",
+		"/Users/slevin/Library/Application Support/Sublime Text 3/Installed Packages/AceJump.sublime-package",
+		"/Users/slevin/Library/Application Support/Sublime Text 3/Packages/Emmet/Default (OSX).sublime-keymap",
+		"/Users/slevin/Library/Application Support/Sublime Text 3/Packages/User/bind_repeat_motion.py",
+		"/Users/slevin/Library/Application Support/Sublime Text 3/Packages/LineJumper/Default (OSX).sublime-keymap",
+		"/Users/slevin/Library/Application Support/Sublime Text 3/Packages/LineJumper/LineJumper.sublime-settings",
+		"/Users/slevin/Library/Application Support/Sublime Text 3/Packages/User/Package Control.user-ca-bundle",
+		"/Users/slevin/Library/Application Support/Sublime Text 3/Packages/AceJump/Default (OSX).sublime-keymap",
+		"/Users/slevin/zhang/sandbox/try-slim/src/composer.lock",
+		"/Users/slevin/zhang/sandbox/try-slim/src/public/new.php",
+		"/Users/slevin/zhang/sandbox/try-slim/.gitignore",
+		"/Users/slevin/zhang/sandbox/try-slim/vendor/autoload.php",
+		"/Users/slevin/Dropbox/Evernote: Setup homebrew php on mac.enmd",
+		"/Users/slevin/Dropbox/Notes/knowledge/computer/code-the-hidden-language/03_braille_and_binary_codes.md",
+		"/Users/slevin/Dropbox/Notes/knowledge/computer/code-the-hidden-language/02_codes-and-combinations.md",
+		"/Users/slevin/Dropbox/Notes/knowledge/computer/code-the-hidden-language/01_best-friends.md",
+		"/Users/slevin/zhang/x-factor/neat-client/src/app/users/user.data.js",
+		"/Users/slevin/zhang/x-factor/neat_records_to_csv.sql",
+		"/Users/slevin/Dropbox/Notes/knowledge/cpp/cplusplus.com/1.5_basic-input-output.md",
+		"/Users/slevin/Dropbox/Notes/knowledge/cpp/cplusplus.com/1.4_operators.md",
+		"/Users/slevin/Dropbox/Notes/knowledge/cpp/cplusplus.com/1.3_constants.md",
+		"/Users/slevin/Dropbox/Notes/knowledge/cpp/cplusplus.com/1.2_variables-and-types.md",
+		"/Users/slevin/Dropbox/Notes/knowledge/computer/networking/1.2_the-network-edge.md",
+		"/Users/slevin/Dropbox/Notes/knowledge/computer/networking/1.1_what-is-the-internet.md",
+		"/Users/slevin/Dropbox/Notes/knowledge/cpp/cplusplus.com/1.1_structure-of-a-program.md",
+		"/Users/slevin/Library/Application Support/Sublime Text 3/Packages/Evernote/Evernote.sublime-settings",
+		"/Users/slevin/Library/Application Support/Sublime Text 3/Packages/User/Evernote.sublime-settings",
+		"/Users/slevin/zhang/x-factor/neat_records_2016-06-13.csv",
+		"/Users/slevin/zhang/x-factor/neat-client/src/app/auth/auth.service.js",
+		"/Users/slevin/zhang/x-factor/neat-client/src/app/auth/auth.interceptor.js",
+		"/Users/slevin/zhang/x-factor/neat-client/gulpfile.js",
+		"/Users/slevin/Downloads/gulpfile.js",
+		"/Users/slevin/Dropbox/Notes/jobsearch/thalmic-labs.md",
+		"/Users/slevin/Downloads/xml-samples-for-team/COrder.vb",
+		"/Users/slevin/Downloads/xml-samples-for-team/TKOrders.asmx.vb",
+		"/Users/slevin/Downloads/xml-samples-for-team/OutboundShipToStoreSample.xml",
+		"/Users/slevin/Downloads/xml-samples-for-team/OutboundShipHomeSample.xml",
+		"/Users/slevin/Downloads/xml-samples-for-team/InboundSample.xml",
+		"/Users/slevin/zhang/x-factor/neat_records.csv",
+		"/Users/slevin/zhang/learn/cplusplus/neat_records_to_csv.sql",
+		"/var/folders/wn/0lp5v3dx4mb7hq9dqfb1lkd40000gn/T/nvim1TuL38/17.js",
+		"/Users/slevin/Dropbox/Notes/knowledge/math/secrets-of-mental-math.md",
+		"/Users/slevin/zhang/sandbox/index.html",
+		"/Users/slevin/auto-selfcontrol/config.json",
+		"/Users/slevin/Dropbox/Notes/temp.md",
+		"/Users/slevin/Dropbox/Notes/postgresql.md",
+		"/Users/slevin/zhang/x-factor/neat-client/src/app/map/map.controller.js",
+		"/Users/slevin/zhang/x-factor/neat-server/seeders/initialize.js",
+		"/Users/slevin/zhang/x-factor/neat-server/app.js",
+		"/Users/slevin/.config/nvim/init.vim",
+		"/Users/slevin/zhang/x-factor/neat-client/src/app/login/auth.controller.js",
+		"/Users/slevin/zhang/x-factor/neat-client/package.json",
+		"/Users/slevin/zhang/x-factor/neat-client/@/Users/slevin/zhang/x-factor/neat-server/app.js",
+		"/Users/slevin/Downloads/csv77307.csv",
+		"/Users/slevin/zhang/im.slevin.2016/assets/img/brand-logo.svg",
+		"/Users/slevin/Google Drive/Notes/checklists/Mac-OS-install.md",
+		"/Users/slevin/Google Drive/Notes/checklists/sublime-install.md",
+		"/Users/slevin/Google Drive/Notes/quick-start.notes",
+		"/Users/slevin/Google Drive/Notes/checklists/Mac-OS-install.notes",
+		"/Users/slevin/Google Drive/Notes/checklists/sublime-install.notes",
+		"/Users/slevin/Google Drive/Notes/checklists/Mac-OS.md",
+		"/Users/slevin/Google Drive/Notes/checklists/new.md",
+		"/Users/slevin/Google Drive/Notes/newfile.notes",
+		"/Users/slevin/Google Drive/Notes/sublime-install.notes",
+		"/Users/slevin/zhang/sandbox/sublime-install.notes",
+		"/Users/slevin/zhang/sandbox/note.notes",
+		"/Users/slevin/Dropbox/Notes/test.note",
+		"/Volumes/Backups/practice/fizzBuzz.js",
+		"/Volumes/Backups/practice/nodejs/events.js",
+		"/Volumes/Backups/practice/nodejs/server.js",
+		"/Volumes/Backups/practice/nodejs/async.js",
+		"/Volumes/Backups/Zhang/projects/fizz-buzz.html",
+		"/Volumes/Backups/Zhang/georgian/comp3027_ux/mod05/online-exercise-5.md",
+		"/Volumes/Backups/Zhang/georgian/comp2083_project/challenges.md",
+		"/Volumes/Backups/Zhang/learn/eloquent-js/6-secret-life-objects/ex_vector.js",
+		"/Volumes/Backups/Zhang/learn/regex/RegexTestHarness.java",
+		"/Volumes/Backups/Zhang/jobsearch/resume.md",
+		"/Volumes/Backups/Zhang/jobsearch/website_content.md",
+		"/Volumes/Backups/Zhang/sites/blog-entry.md",
+		"/Users/slevin/zhang/x-factor/neat-client/src/app/index.route.js",
+		"/Users/slevin/.vimrc",
+		"/Users/slevin/Google Drive/dotfile_backup/.config/nvim/init.vim",
+		"/Users/slevin/.zshrc"
+	],
+	"find":
+	{
+		"height": 70.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"context",
+			"default",
+			"-",
+			"bracketh",
+			"ctrl+x",
+			"super+back",
+			"super+shift+t",
+			"ctrl+j",
+			"high_vis",
+			"number",
+			"numbers",
+			"number",
+			"line",
+			"e\"}",
+			"rep",
+			"move",
+			"amou",
+			"bind",
+			"se",
+			"bi",
+			"true,",
+			"set",
+			"k\"",
+			"\" \"",
+			"VIM",
+			"command",
+			"line_jumper",
+			"select",
+			"ctrl+s\"",
+			"ctrl+s",
+			"ctrl+alt+n",
+			"ctrl+alt+p",
+			"ctrl+alt",
+			"alt",
+			"super+k",
+			"redo",
+			"move",
+			"line",
+			"down",
+			"ctrl+p",
+			"tru",
+			"ignore",
+			"scroll",
+			"number",
+			"tab",
+			"ctrl+c",
+			"response",
+			"\"",
+			"context",
+			"command_mode",
+			"true",
+			"ena",
+			"true",
+			"last",
+			"file",
+			"tab",
+			"previ",
+			"ctrl+s",
+			"ctrl+e",
+			"super+e",
+			"p",
+			"###",
+			"\n###",
+			"###",
+			"em",
+			"http",
+			"9",
+			"8",
+			"rootScope",
+			"jpeg",
+			"ctrl+b",
+			"ctrl+w",
+			"ctrl+d",
+			"important",
+			"ha",
+			"nesting",
+			"talk",
+			"ctrl+e",
+			"sizes",
+			"Plug"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Default (OSX).sublime-keymap",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6623,
+						"regions":
+						{
+							"bookmark_a":
+							{
+								"flags": 144,
+								"regions":
+								[
+									[
+										738,
+										738
+									]
+								]
+							},
+							"bookmark_m":
+							{
+								"flags": 144,
+								"regions":
+								[
+									[
+										950,
+										950
+									]
+								]
+							}
+						},
+						"selection":
+						[
+							[
+								49,
+								49
+							]
+						],
+						"settings":
+						{
+							"always_show_minimap_viewport": true,
+							"auto_complete": true,
+							"auto_indent": true,
+							"color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
+							"detect_indentation": true,
+							"draw_centered": false,
+							"draw_minimap_border": false,
+							"draw_white_space": "selection",
+							"font_face": "Menlo-Regular",
+							"font_options":
+							[
+							],
+							"gutter": true,
+							"highlight_line": false,
+							"indent_subsequent_lines": true,
+							"line_numbers": false,
+							"line_padding_bottom": 3,
+							"line_padding_top": 3,
+							"match_brackets": true,
+							"match_brackets_angle": false,
+							"match_brackets_braces": true,
+							"match_brackets_content": true,
+							"match_brackets_square": true,
+							"rulers":
+							[
+							],
+							"scroll_past_end": false,
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"trim_automatic_white_space": true,
+							"trim_trailing_white_space_on_save": false,
+							"use_tab_stops": true,
+							"word_wrap": "auto",
+							"wrap_width": 0
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Preferences.sublime-settings",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 501,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 70.0
+	},
+	"input":
+	{
+		"height": 63.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 156.0
+	},
+	"pinned_build_system": "",
+	"project": "sublrc.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"Default (OSX).sublime-keymap"
+			],
+			[
+				"rea",
+				"README.md"
+			],
+			[
+				"reame",
+				"README.md"
+			],
+			[
+				"git",
+				"Git.sublime-settings"
+			],
+			[
+				"gisu",
+				"Git.sublime-settings"
+			],
+			[
+				"authinter",
+				"src/app/auth/auth.interceptor.js"
+			],
+			[
+				"gii",
+				".gitignore"
+			],
+			[
+				"indph",
+				"src/public/index.php"
+			],
+			[
+				"indp",
+				"src/public/index.php"
+			],
+			[
+				"authcont",
+				"src/app/login/auth.controller.js"
+			],
+			[
+				"indphp",
+				"src/public/index.php"
+			],
+			[
+				"ind",
+				"src/public/index.php"
+			],
+			[
+				"src/ind",
+				"src/public/index.php"
+			],
+			[
+				"inde",
+				"src/public/index.php"
+			],
+			[
+				"gulpfil",
+				"gulpfile.js"
+			],
+			[
+				"sub",
+				"sublime-install.notes"
+			],
+			[
+				"note",
+				"note.notes"
+			],
+			[
+				"no",
+				"note.notes"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "surc",
+		"selected_items":
+		[
+			[
+				"surc",
+				"~/Library/Application Support/Sublime Text 3/Packages/User/sublrc.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"authsi",
+				"AuthService"
+			],
+			[
+				"",
+				"!=="
+			],
+			[
+				"cookiepar",
+				"CookieParser"
+			]
+		],
+		"width": 903.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

@@ -1,0 +1,5 @@
+{
+    // options: <filename>, <filepath>, <filedirectory>
+    "rename_default": "<filedirectory>",
+    "copy_default": "<filepath>",
+}
