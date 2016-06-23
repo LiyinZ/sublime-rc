@@ -22,21 +22,27 @@
       {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": false}
     ]
   },
-  { // backspace to go left pane
+  { // backspace to go prev view
     "keys": ["backspace"],
+    "command": "prev_view",
+    "context": [{"key": "setting.command_mode"}]
+  },
+  { // tab to go next view
+    "keys": ["tab"],
+    "command": "next_view",
+    "context": [{"key": "setting.command_mode"}]
+  },
+  { // backspace to go left pane
+    "keys": ["super+["],
     "command": "move_group_focus",
     "args": {"direction": "left"},
-    "context": [
-      {"key": "setting.command_mode"},
-    ]
+    "context": [{"key": "setting.command_mode"}]
   },
   { // tab to go right pane
-    "keys": ["tab"],
+    "keys": ["super+]"],
     "command": "move_group_focus",
     "args": {"direction": "right"},
-    "context": [
-      {"key": "setting.command_mode"},
-    ]
+    "context": [{"key": "setting.command_mode"}]
   },
   { // replace ^
     "keys": ["ctrl+h"],
@@ -166,12 +172,11 @@
 
   // Git Gutter
   { 
-    "keys": ["g", "j"], 
-    "command": "git_gutter_next_change",
-    "context": [{"key": "setting.command_mode"}]
+    "keys": ["super+ctrl+j"],
+    "command": "git_gutter_next_change"
   },
   { 
-    "keys": ["g", "k"], 
+    "keys": ["super+ctrl+k"],
     "command": "git_gutter_prev_change",
     "context": [{"key": "setting.command_mode"}]
   },
