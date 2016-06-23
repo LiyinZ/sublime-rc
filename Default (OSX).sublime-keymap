@@ -1,5 +1,14 @@
 [
   /* default VIM Emulation and modification */
+  { // swap cmd-r and space-r
+    "keys": [" ", "r"],
+    "command": "show_overlay",
+    "args": {"overlay": "goto", "text": "@"},
+    "context": [{"key": "setting.command_mode"}]
+  },
+  { "keys": ["super+r"], 
+    "command": "goto_symbol_in_project" 
+  },
   { // U for redo, matching u for undo
     "keys": ["U"],
     "command": "redo",
@@ -13,16 +22,18 @@
       {"key": "selection_empty", "operator": "equal", "operand": false, "match_all": false}
     ]
   },
-  { // backspace to go prev_view
+  { // backspace to go left pane
     "keys": ["backspace"],
-    "command": "prev_view",
+    "command": "move_group_focus",
+    "args": {"direction": "left"},
     "context": [
       {"key": "setting.command_mode"},
     ]
   },
-  { // tab to go next_view
+  { // tab to go right pane
     "keys": ["tab"],
-    "command": "next_view",
+    "command": "move_group_focus",
+    "args": {"direction": "right"},
     "context": [
       {"key": "setting.command_mode"},
     ]
@@ -137,13 +148,13 @@
 
   // Origami
   { // destroy current pane
-    "keys": [" ", "q"],
+    "keys": ["ctrl+w", "q"],
     "command": "destroy_pane",
     "args": {"direction": "self"},
     "context": [{"key": "setting.command_mode"}]
   },
   { // vertical split with current file
-    "keys": ["ctrl+w", "v"],
+    "keys": ["ctrl+x", "v"],
     "command": "create_pane_with_file",
     "args": {"direction": "right"},
     "context": [
@@ -152,7 +163,7 @@
     ]
   },
   { // horizontal split with current file
-    "keys": ["ctrl+w", "s"],
+    "keys": ["ctrl+x", "s"],
     "command": "create_pane_with_file",
     "args": {"direction": "down"},
     "context": [
@@ -182,15 +193,6 @@
     "keys": ["ctrl+w", "p"],
     "command": "pull_file_from_pane",
     "args": {"direction": "left"},
-    "context": [
-      {"key": "setting.vintage_ctrl_keys"},
-      {"key": "setting.command_mode"}
-    ]
-  },
-  { // pull file from right pane
-    "keys": ["ctrl+w", "q"],
-    "command": "pull_file_from_pane",
-    "args": {"direction": "right"},
     "context": [
       {"key": "setting.vintage_ctrl_keys"},
       {"key": "setting.command_mode"}
