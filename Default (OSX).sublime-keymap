@@ -1,13 +1,16 @@
 [
   /* default VIM Emulation and modification */
+  { "keys": [":"], "command": "show_overlay", "args": {"overlay": "command_palette"},
+    "context": [{"key": "setting.command_mode"}]
+  },
   { // swap cmd-r and space-r
     "keys": [" ", "r"],
     "command": "show_overlay",
     "args": {"overlay": "goto", "text": "@"},
     "context": [{"key": "setting.command_mode"}]
   },
-  { "keys": ["super+r"], 
-    "command": "goto_symbol_in_project" 
+  { "keys": ["super+r"],
+    "command": "goto_symbol_in_project"
   },
   { // U for redo, matching u for undo
     "keys": ["U"],
@@ -154,28 +157,28 @@
 
   // Advanced New File
   { // delete current file
-    "keys": [":", "m", "d"],
+    "keys": [" ", "m", "d"],
     "command": "advanced_new_file_delete",
     "args": {"current": true},
     "context": [{"key": "setting.command_mode"}]
   },
   { // rename file
-    "keys": [":", "m", "m"],
+    "keys": [" ", "m", "m"],
     "command": "advanced_new_file_move",
     "context": [{"key": "setting.command_mode"}]
   },
   { // copy file
-    "keys": [":", "m", "c"],
+    "keys": [" ", "m", "c"],
     "command": "advanced_new_file_copy",
     "context": [{"key": "setting.command_mode"}]
   },
 
   // Git Gutter
-  { 
+  {
     "keys": ["super+ctrl+j"],
     "command": "git_gutter_next_change"
   },
-  { 
+  {
     "keys": ["super+ctrl+k"],
     "command": "git_gutter_prev_change",
     "context": [{"key": "setting.command_mode"}]
