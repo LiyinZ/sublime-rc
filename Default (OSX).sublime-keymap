@@ -3,6 +3,7 @@
   { "keys": [":"], "command": "show_overlay", "args": {"overlay": "command_palette"},
     "context": [{"key": "setting.command_mode"}]
   },
+  { "keys": ["ctrl+tab"], "command": "auto_complete" },
   { // swap cmd-r and space-r
     "keys": [" ", "r"],
     "command": "show_overlay",
@@ -55,18 +56,6 @@
       "motion_args": {"extend": true},
       "clip_to_line": true
     },
-    "context": [{"key": "setting.command_mode"}]
-  },
-  { // go to left pane
-    "keys": [" ", "l"],
-    "command": "move_group_focus",
-    "args": {"direction": "right"},
-    "context": [{"key": "setting.command_mode"}]
-  },
-  { // go to right pane
-    "keys": [" ", "h"],
-    "command": "move_group_focus",
-    "args": {"direction": "left"},
     "context": [{"key": "setting.command_mode"}]
   },
   { // replace $
