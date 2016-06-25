@@ -113,7 +113,7 @@
     },
     "context": [{"key": "setting.command_mode"}]
   },
-  // sidebar hjkl keyboard navigation
+  // sidebar keyboard navigation
   { "keys": ["x"], "command": "move", "args": {"by": "characters", "forward": false}, "context":
     [ {"key": "control", "operand": "sidebar_tree"} ] },
 { "keys": ["j"], "command": "move", "args": {"by": "lines", "forward": true}, "context":
@@ -145,6 +145,11 @@
   },
 
   // Advanced New File
+  { // add new file
+    "keys": [" ", "m", "a"],
+    "command": "advanced_new_file_new",
+    "context": [{"key": "setting.command_mode"}]
+  },
   { // delete current file
     "keys": [" ", "m", "d"],
     "command": "advanced_new_file_delete",
@@ -160,6 +165,52 @@
     "keys": [" ", "m", "c"],
     "command": "advanced_new_file_copy",
     "context": [{"key": "setting.command_mode"}]
+  },
+
+  // Sublime Evernote
+  { // new note
+    "keys": [" ", "e", "n"],
+    "command": "new_evernote_note",
+    "context": [{"key": "setting.command_mode"}]
+  },
+  { // open note
+    "keys": [" ", "e", "o"],
+    "command": "open_evernote_note",
+    "context": [{"key": "setting.command_mode"}]
+  },
+  { // search note and open
+    "keys": [" ", "e", "s"],
+    "command": "open_evernote_note",
+    "args": {"by_searching": true},
+    "context": [{"key": "setting.command_mode"}]
+  },
+  { // open recent note
+    "keys": [" ", "e", "r"],
+    "command": "open_evernote_note",
+    "args": {"max_notes": 10, "by_searching": "*", "order": "updated", "ascending": false},
+    "context": [{"key": "setting.command_mode"}]
+  },
+  { // clear notebook cache
+    "keys": [" ", "e", "c"],
+    "command": "clear_evernote_cache",
+    "context": [{"key": "setting.command_mode"}]
+  },
+  { // delete current note
+    "keys": [" ", "e", "d"],
+    "command": "delete_evernote_note",
+    "context": [{"key": "setting.command_mode"}]
+  },
+  { // save/update note
+    "keys": ["super+s"],
+    "command": "save_evernote_note",
+    "context": [{"key": "evernote_note"}, {"key": "evernote_has_guid"}]
+  },
+  { // send as new note
+    "keys": ["super+s"],
+    "command": "send_to_evernote",
+    "context": [
+      {"key": "evernote_note"},
+      {"key": "evernote_has_guid", "operator": "equal", "operand": false}]
   },
 
   // Git Gutter
