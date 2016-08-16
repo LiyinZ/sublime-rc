@@ -3,7 +3,6 @@
   { "keys": [":"], "command": "show_overlay", "args": {"overlay": "command_palette"},
     "context": [{"key": "setting.command_mode"}]
   },
-  { "keys": ["ctrl+tab"], "command": "auto_complete" },
   { // swap cmd-r and space-r
     "keys": [" ", "r"],
     "command": "show_overlay",
@@ -131,17 +130,19 @@
     "command": "move_to",
     "args": {"to": "eol", "extend": false}
   },
-
-  // Ace Jump
-  {
-    "keys": [" ", " "],
-    "command": "ace_jump_char",
-    "context": [{"key": "setting.command_mode"}]
-  },
-  {
-    "keys": [" ", "w"],
-    "command": "ace_jump_word",
-    "context": [{"key": "setting.command_mode"}]
+  { // useful for tags like <md-button>
+    "keys": [
+      "ctrl+,"
+    ],
+    "args": {
+      "action": "expand_abbreviation"
+    },
+    "command": "run_emmet_action",
+    "context": [
+      {
+        "key": "emmet_action_enabled.expand_abbreviation"
+      }
+    ]
   },
 
   // Advanced New File
@@ -221,6 +222,23 @@
   {
     "keys": ["super+ctrl+k"],
     "command": "git_gutter_prev_change",
+  },
+
+  // MarkdownCodeBlockWrapper
+  {
+    "keys": [" ", "c", "b"],
+    "command": "prompt_md_code_block",
+    "context": [{"key": "setting.command_mode"}]
+  },
+  // Path Tools
+  {
+    "keys": [" ", "c", "p"],
+    "command": "copy_path",
+    "context": [{"key": "setting.command_mode"}]
+  },
+  {
+    "keys": [" ", "c", "d"],
+    "command": "copy_file_directory",
     "context": [{"key": "setting.command_mode"}]
   },
 
@@ -230,15 +248,6 @@
     "command": "destroy_pane",
     "args": {"direction": "self"},
     "context": [{"key": "setting.command_mode"}]
-  },
-  { // vertical split with current file
-    "keys": ["ctrl+x", "v"],
-    "command": "create_pane_with_file",
-    "args": {"direction": "right"},
-    "context": [
-      {"key": "setting.vintage_ctrl_keys"},
-      {"key": "setting.command_mode"}
-    ]
   },
   { // horizontal split with current file
     "keys": ["ctrl+x", "s"],
